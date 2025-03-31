@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.background {
+  width: 100%;
+  position: fixed;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.moon-dance-regular {
+  font-family: "Moon Dance", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.roboto-900 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header-wrap-1 {
+  font-size: 120px;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 0;
+  color: #FFFFFF;
+  letter-spacing: 20px;
+}
+
+.header-wrap-2 {
+  font-size: 50px;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
+
+main {
+  position: relative;
+}
+
+.main-wrap {
+  height: 700px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.java-wrap {
+  width: 170px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.java-text-wrap {
+  color: #FFFFFF;
+  font-size: 100px;
+  letter-spacing: 5px;
+  padding: 50px;
+  margin: 0;
+}
+
+.lang-logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.lang-text-wrap {
+  font-size: 50px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #ffee00;
+  letter-spacing: 15px;
+}
+
+.next-wrap {
+  font-size: 80px;
+  color: #FFFFFF;
+  padding: 50px;
+}
+
+.spring-wrap {
+  width: 80px;
+}
+
+.spring-text-wrap {
+  color: #FFFFFF;
+  padding: 20px;
+  letter-spacing: 5px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.code-text-wrap {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+  color: #eeaaff;
+  letter-spacing: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
 }
